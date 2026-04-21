@@ -2,6 +2,9 @@
 """
 A simple Python script example.
 You can open and edit this file in PyCharm.
+
+
+I want modify
 """
 
 def greet(name):
@@ -13,12 +16,12 @@ def main():
     name = input("Enter your name: ")
     message = greet(name)
     print(message)
-    
+
     # Simple calculation example
     print("\nLet's do a quick calculation:")
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
-    
+
     print(f"{num1} + {num2} = {num1 + num2}")
     print(f"{num1} - {num2} = {num1 - num2}")
     print(f"{num1} * {num2} = {num1 * num2}")
