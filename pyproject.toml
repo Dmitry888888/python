@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+# Tell pytest where to look for tests
+testpaths = [
+    "tests"
+]
+
+# Always use these options unless overridden
+addopts = [
+    "-v",           # Verbose output
+    "--tb=short",   # Short traceback format
+    "--strict-markers"
+]
+
+# Only collect files that match these patterns
+python_files = [
+    "test_*.py",
+    "*_test.py"
+]
+
+# Test classes must start with "Test" (and not have __init__)
+python_classes = ["Test"]
+
+# Test functions must start with "test"
+python_functions = ["test"]

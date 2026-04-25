@@ -1,21 +1,10 @@
 #!/usr/bin/env python3
 """
-A simple Python script example.
-You can open and edit this file in PyCharm.
-
-this was qwenbot!!
-I want modify
-
-i am giga
-
-this is my comment
-
+Main script that uses a function from another file and folder.
 """
 
-# itgiga comment 2
-def greet(name):
-    """Greet a person by name."""
-    return f"Hello, {name}! Welcome to Python programming."
+from utils.greetings import greet
+
 
 def main():
     """Main function to run the script."""
@@ -35,6 +24,7 @@ def main():
         print(f"{num1} / {num2} = {num1 / num2}")
     else:
         print("Cannot divide by zero!")
+
 
 if __name__ == "__main__":
     main()
