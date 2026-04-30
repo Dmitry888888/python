@@ -20,7 +20,7 @@ from googleapiclient.http import MediaIoBaseDownload
 
 # Настройки
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-CREDENTIALS_FILE = 'credentials/credentials.json'
+CREDENTIALS_FILE = 'credentials_google_table/credentials.json'
 TOKEN_FILE = 'token.json'
 DOWNLOAD_DIR = Path('T:/downloaded_photos_from_google_drive')
 DOWNLOAD_DIR.mkdir(exist_ok=True)

@@ -16,7 +16,7 @@ from googleapiclient.discovery import build
 
 # Настройки
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']  # Для редактирования таблиц
-CREDENTIALS_FILE = 'credentials/credentials.json'
+CREDENTIALS_FILE = 'credentials_google_table/credentials.json'
 TOKEN_FILE = 'token.json'
 SPREADSHEET_ID = '1B6mZR3tBle-U2_Mk8Ah6fkoztVVOH9rB8FjHgCMVBOc'  # Из URL
 RANGE_NAME = 'Лист1!A:A'  # Диапазон первого столбца — чтобы определить номер строки
