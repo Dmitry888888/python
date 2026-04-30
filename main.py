@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """
 Main script that uses a function from another file and folder.
+
+This script demonstrates:
+- Importing a custom function from a module in a subdirectory
+- User input and string formatting
+- Basic arithmetic operations
+
+Example:
+    Run the script and enter your name when prompted.
+    Then input two numbers to see the results of basic math operations.
 """
 
 from utils.greetings import greet
